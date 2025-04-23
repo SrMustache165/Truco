@@ -1,6 +1,6 @@
 # Jogo de Truco com IA
 
-Este é um projeto de **Jogo de Truco** desenvolvido em **Python**, com **Tkinter** para a interface gráfica e **Inteligência Artificial (IA)** para controlar os adversários. O objetivo é proporcionar uma experiência interativa de jogo de Truco com a possibilidade de jogar contra adversários controlados por IA.
+Este é um projeto de **Jogo de Truco** desenvolvido em **Python** e **Inteligência Artificial (IA)** para controlar os adversários. O objetivo é proporcionar uma experiência interativa de jogo de Truco com a possibilidade de jogar contra adversários controlados por IA, desenvolver um sistema completo de jogo de truco brasileiro, com o maximo de fidelidade as regras originais do jogo.
 
 ## Funcionalidades
 
@@ -22,10 +22,22 @@ Este é um projeto de **Jogo de Truco** desenvolvido em **Python**, com **Tkinte
 - Python 3.6 ou superior
 - Tkinter (geralmente já incluído nas distribuições padrão do Python)
 
-## Instalação
+
+- # Proximas atualizações
+- Adicionar Sons
+- Adicionar Efeitos visuais de virar carta.
+- Adicionar Efeito de embaralhar cartas.
+- Adicionar Sistema de Manilhas  ( Vira ).
+- Criar inteligencia para o meu "Parceiro" onde analisa as cartas jogadas e se estamos ganhando para nao queimar carta sem nescessidade.
+- Criar inteligencia para os inimigos para analisar qual carta esta vindo e nao jogar carta aleatória.
+
+
+## Instalação e PLAY
 
 Clone o repositório para a sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/truco-ia.git
-cd truco-ia
+git clone https://github.com/SrMustache165/Truco.git
+cd truco
+main.py
+
