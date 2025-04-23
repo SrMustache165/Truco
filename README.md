@@ -34,7 +34,7 @@ Este é um projeto de **Jogo de Truco** desenvolvido em **Python** e **Inteligê
 
 ## Instalação e PLAY
 
-Clone o repositório para a sua máquina local:
+Clone o repositório para a sua máquina local e execute o arquivo:
 
 ```bash
 git clone https://github.com/SrMustache165/Truco.git
