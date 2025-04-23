@@ -1,5 +1,5 @@
-from ui.game_ui import TrucoApp
+from ui.menu import TelaInicial
 
 if __name__ == "__main__":
-    app = TrucoApp()
+    app = TelaInicial()
     app.mainloop()

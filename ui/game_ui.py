@@ -21,7 +21,16 @@ class TrucoApp(tk.Tk):
         # Inicia partida
         self.match = Match(self.jogador, self.parceiro,
                            self.inimigo1, self.inimigo2, Deck())
+        
+        # Ativa o modo debug para ver logs no console e no arquivo
+        self.match.debug = True
+        
         self.match.iniciar_rodada()
+
+        # Logando cartas iniciais
+        for p in self.match.jogadores:
+            mao = [str(c) for c in p.mao]
+            self.match.log(f"{p.nome} recebeu: {mao}")
 
         # Monta UI
         self._criar_widgets()
@@ -99,6 +108,7 @@ class TrucoApp(tk.Tk):
         self.match.jogar_carta(self.jogador, carta)
         self._atualizar_mesa()
         self._atualizar_interface()
+        
 
         # 2) Os 3 IAs jogam **exatamente 1 carta cada** (com animação)
         for ia in [self.inimigo1, self.parceiro, self.inimigo2]:
