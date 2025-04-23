@@ -12,10 +12,11 @@ Este é um projeto de **Jogo de Truco** desenvolvido em **Python** e **Inteligê
 ## Como Jogar
 
 1. Execute o código Python (`main.py`).
-2. O jogo começa automaticamente com a distribuição das cartas.
-3. O jogador deve escolher uma carta para jogar a cada rodada. Os adversários controlados por IA também jogam suas cartas.
-4. Após todas as cartas serem jogadas, o vencedor da rodada é determinado, e a pontuação dos times é atualizada.
-5. O jogo segue até que um time consiga acumular 12 pontos.
+2. O jogo irá exibir um simples menu inicial ( clique em "NOVO JOGO" )
+3. O jogo começa automaticamente com a distribuição das cartas.
+4. O jogador deve escolher uma carta para jogar a cada rodada. Os adversários controlados por IA também jogam suas cartas.
+5. Após todas as cartas serem jogadas, o vencedor da rodada é determinado, e a pontuação dos times é atualizada.
+6. O jogo segue até que um time consiga acumular 12 pontos.
 
 ## Pré-requisitos
 
@@ -27,6 +28,7 @@ Este é um projeto de **Jogo de Truco** desenvolvido em **Python** e **Inteligê
 - Adicionar Sons
 - Adicionar Efeitos visuais de virar carta.
 - Adicionar Efeito de embaralhar cartas.
+- Alterar sistema como o jogo escolhe quem começa jogando cada rodada.
 - Adicionar Sistema de Manilhas  ( Vira ).
 - Criar inteligencia para o meu "Parceiro" onde analisa as cartas jogadas e se estamos ganhando para nao queimar carta sem nescessidade.
 - Criar inteligencia para os inimigos para analisar qual carta esta vindo e nao jogar carta aleatória.
